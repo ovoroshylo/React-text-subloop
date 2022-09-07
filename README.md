@@ -1,18 +1,3 @@
-## react-text-loop
-
-![text-loop2](https://cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif)
-
-An animated loop of text nodes for your headings. Uses
-[react-motion](https://github.com/chenglou/react-motion) for the transition so it handles super fast
-animations and spring params.
-
-[![npm version][version-badge]][npm]
-[![npm downloads][downloads-badge]][npm]
-[![gzip size][size-badge]][size]
-[![MIT License][license-badge]][license]
-[![PRs Welcome][prs-badge]][prs]
-
----
 
 ## Installation
 
