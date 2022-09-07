@@ -18,12 +18,6 @@ animations and spring params.
 
 `npm install react-text-loop` or `yarn add react-text-loop`
 
-## How to use
-
-[![Edit react-text-loop][codesandbox-badge]][codesandbox]
-
-You can also run the examples by cloning the repo and running `yarn start`.
-
 ### Usage
 
 ```jsx
@@ -84,35 +78,6 @@ each node.
 ```jsx
 <TextLoop children={["Trade faster", "Increase sales", "Stock winners", "Price perfectly"]} />;
 ```
-
-## Examples
-
-### Fast transition
-
-![text-loop-fast-small](https://cloud.githubusercontent.com/assets/38172/24275301/5d48c6e2-1026-11e7-85b8-e7cfe07f4714.gif)
-
-```jsx
-<TextLoop interval={100}>...</TextLoop>;
-```
-
-### Wobbly animation
-
-![text-loop-bouncy](https://cloud.githubusercontent.com/assets/38172/24275347/b0e45b2c-1026-11e7-8e04-04bdafdef249.gif)
-
-```jsx
-<TextLoop springConfig={{ stiffness: 180, damping: 8 }}>...</TextLoop>;
-```
-
-For many other examples, please have a look at the [CodeSandbox playground][codesandbox].
-
-## Contributing
-
-Please follow our
-[contributing guidelines](https://github.com/braposo/react-text-loop/blob/master/CONTRIBUTING.md).
-
-## License
-
-[MIT](https://github.com/braposo/react-text-loop/blob/master/LICENSE)
 
 [npm]: https://www.npmjs.com/package/react-text-loop
 [license]: https://github.com/braposo/react-text-loop/blob/master/LICENSE
